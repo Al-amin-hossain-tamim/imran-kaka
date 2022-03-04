@@ -13,6 +13,9 @@ body{
 .half-width img{
     width: 80%;
 }
+h1{
+    font-size: 40px;
+}
 .start{
     font-size:50px;
 }
@@ -39,10 +42,12 @@ body{
     background-position:right;
 }
 .experience-item{
-    box-shadow: 10px 10x 40px gray;
+    box-shadow: 10px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
     border-radius: 10px;
 }
@@ -50,4 +55,19 @@ body{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    border-radius: 5px;
 }
+#development-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
+}
+#development-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+
